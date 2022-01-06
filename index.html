@@ -8,7 +8,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />    
+    <script src="https://kit.fontawesome.com/fd9438e386.js"
+    crossorigin="anonymous"></script>
+    
+
   </head>
   <body>
     <!-- Page Wrapper -->
@@ -20,68 +24,101 @@
           <ul class="links">
             <li><a href="index.html">Home</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="github.com">GitHub</a></li>
-            <li><a href="#about">About</a></li>
+            <li>
+              <a href="https://github.com/rogeriobautz " target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <!-- <li><a href="#about">About</a></li> -->
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
 
       <!-- Banner -->
-      <section id="heading">
-        <div class="logo"><span class="icon fa-gem"></span></div>
-        <h2 class="title">Rogerio Bautz</h2>
-        <p class="">
-          I'm learning HTMl and CSS and these are my first projects using
+      <section class="heading">
+        <h1 class="title">Rogerio Bautz</h1>
+        <p class="subtitle">
+          I'm learning HTML and CSS and these are my first projects using
           Frontend Mentor challenges.
         </p>
       </section>
 
+      <!-- Mobile First -->
       <main class="projects-box">
         <section class="projects-wrapper">
+          <h2 id="projects">projects</h2>
           <article>
-            <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-            <h3 class="major">Four Card Feature Section</h3>
-            <p>Responsive feature built with HTML and CSS using flexbox.</p>
-            <a href="#" class="special">Preview Site</a>
-            <a href="#" class="special">View Code</a>
+            <a href="#" class="project-img"
+              ><img src="images/compressed/4-card-desktop.png" alt=""
+            /></a>
+            <div class="text">
+              <h3 class="project-title">Four Card Feature Section</h3>
+              <p>
+                Responsive feature built with HTML and CSS using flexbox
+                extracted from Frontend Mentor challenges.
+              </p>
+              <a href="https://rogeriobautz.github.io/four-card-feature-section/" class="button preview-button" target="_blank">Preview Site</a>
+              <a href="https://github.com/rogeriobautz/four-card-feature-section" class="button view-button" target="_blank">View Code</a>
+            </div>
           </article>
           <article>
-            <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-            <h3 class="major">Social Proof Section</h3>
-            <p>Responsive feature built with HTML and CSS using flexbox</p>
-            <a href="#" class="special">Preview Site</a>
-            <a href="#" class="special">View Code</a>
+            <a href="#" class="project-img"
+              ><img src="images/compressed/social-proof-desktop.png" alt=""
+            /></a>
+            <div class="text">
+              <h3 class="project-title">Social Proof Section</h3>
+              <p>
+                Responsive feature built with HTML and CSS using flexbox
+                extracted from Frontend Mentor challenges.
+              </p>
+              <a href="https://rogeriobautz.github.io/social-proof-section/" class="button preview-button"target="_blank">Preview Site</a>
+              <a href="https://github.com/rogeriobautz/social-proof-section" class="button view-button"target="_blank">View Code</a>
+            </div>
           </article>
           <article>
-            <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-            <h3 class="major">3-Column Preview Card Component</h3>
-            <p>Responsive feature built with HTML and CSS using flexbox</p>
-            <a href="#" class="special">Preview Site</a>
-            <a href="#" class="special">View Code</a>
+            <a href="#" class="project-img"
+              ><img src="images/compressed/3-column-desktop.png" alt=""
+            /></a>
+            <div class="text">
+              <h3 class="project-title">3-Column Preview Card Component</h3>
+              <p>
+                Responsive feature built with HTML and CSS using
+                flexboxextracted from Frontend Mentor challenges.
+              </p>
+              <a href="https://rogeriobautz.github.io/3-column-preview/" class="button preview-button" target="_blank">Preview Site</a>
+              <a href="https://github.com/rogeriobautz/3-column-preview" class="button view-button" target="_blank">View Code</a>
+            </div>
           </article>
           <article>
-            <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-            <h3 class="major">Stats Preview Card Component</h3>
-            <p>Responsive feature built with HTML and CSS using grid layout.</p>
-            <a href="#" class="special">Preview Site</a>
-            <a href="#" class="special">View Code</a>
+            <a href="#" class="project-img"
+              ><img src="images/compressed/stats-preview-desktop.png" alt=""
+            /></a>
+            <div class="text">
+              <h3 class="project-title">Stats Preview Card Component</h3>
+              <p>
+                Responsive feature built with HTML and CSS using grid layout
+                extracted from Frontend Mentor challenges.
+              </p>
+              <a href="https://rogeriobautz.github.io/stats-preview-component/" class="button preview-button" target="_blank">Preview Site</a>
+              <a href="https://github.com/rogeriobautz/stats-preview-component" class="button view-button" target="_blank">View Code</a>
+            </div>
           </article>
-        </section>
-        <ul class="actions">
-          <li><a href="github.com" class="button">My GitHub repository</a></li>
-        </ul>
+        
+            <a
+              href="https://github.com/rogeriobautz"
+              target="_blank"
+              class="button repo-button"
+              >My GitHub repository</a
+            >
+          
       </main>
 
       <!-- Footer -->
-      <section id="footer">
-        <div class="inner">
-          <h2 class="major">CONTACT ME</h2>
-          <!-- <p>
-            Tenho interesse em trabalhos freelance e vagas para Desenvolvedor
-            Júnior. Se tiver qualquer dúvida, entre em contato.
-          </p> -->
-          <form method="post" action="#">
+      <footer>
+        <div id="contact" class="contact">
+          <h2 class="contact-title">CONTACT ME</h2>
+           <form method="post" action="https://formsubmit.co/rogeriobautz@gmail.com">
             <div class="fields">
               <div class="field">
                 <label for="name">Name</label>
@@ -93,28 +130,39 @@
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
+                <textarea name="message" id="message" rows="4" ></textarea>
               </div>
             </div>
-            <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
-            </ul>
+            <input id="send-button" type="submit" value="Send Message" />
+            
           </form>
-          <ul class="contact">
-            <li class="icon solid fa-home">
-              Indaiatuba/SP<br />
-              Brazil<br />
+          <ul class="contact-links">         
+            <li class="icon brands whatsapp">
+              <a href="https://wa.me/5519989214416" target="_blank">
+                +55 19 989214416
+              </a>
             </li>
-            <li class="icon solid fa-phone">(+55)19-989214416</li>
-            <li class="icon solid fa-envelope">
-              <a href="#">rogeriobautz@gmail.com</a>
+            <li class="icon brands instagram">
+              <a href="instagram.com/rogerio.bautz" target="_blank">
+                instagram.com/rogerio.bautz
+              </a></li>
+            <li class="icon solid email">              
+              <a href="mailto:rogeriobautz@gmail.com" target="_blank">
+                rogeriobautz@gmail.com
+              </a>
             </li>
-            <li class="icon brands fa-instagram">
-              <a href="#">instagram.com/rogerio.bautz</a>
+            <li class="icon solid home">
+              <a href="https://goo.gl/maps/pBkDZuHNSaszrkWj7" target="_blank">
+                Indaiatuba/SP - Brazil
+              </a>
             </li>
           </ul>
         </div>
-      </section>
+        <div class="rights">
+          <p>All rights reserved</p>
+          <p>Design & Code: Rogerio Bautz</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
